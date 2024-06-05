@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dangnhap.css">
+</head>
+
+<body>
+    <section class="login">
+        <article>
+            <img src="img/at_du-lich-viet-nam-co-dang-tiec-chi-phi-quang-ba_3bfd6c5d5505759a6bd9bff532a0a32d.jpg" alt=""
+                width="300px">
+            <form action="">
+                <h3>ĐĂNG NHẬP</h3>
+                <p>Tên Dăng Nhập</p>
+                <input type="text" id="inputUser" onchange="checkName(this.value)" placeholder="Nhập tên tài khoản">
+                <br>
+                <p id="name-error"></p>
+
+                <p>Mật khẩu</p>
+                <input type="text" id="inputPass" onchange="checkNumber(this.value)" placeholder="Nhập mật khẩu(10 số)">
+                <br>
+                <p id="number-error"></p>
+
+                <br />
+                <input type="checkbox" />Ghi nhớ tài khoản <br />
+                <button> <a href="trangchu.html"> Đăng Nhập </a></button>
+                <button> <a href="dangki.html"> Đăng Kí </a></button>
+
+                <br />
+
+
+            </form>
+        </article>
+    </section>
+</body>
+<script src="dangnhap.js"></script>
+
+</html>

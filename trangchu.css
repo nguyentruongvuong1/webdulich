@@ -1,0 +1,1467 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Regular', sans-serif;
+    position: relative;
+
+}
+
+
+.zalo {
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    width: 50px;
+}
+
+.zalo:hover {
+    transform: scale(1.1);
+}
+
+.messenger {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    width: 50px;
+}
+
+.messenger:hover {
+    transform: scale(1.1);
+}
+
+
+header a:hover {
+    color: red;
+}
+
+header .bi-search:hover {
+    color: red;
+}
+
+
+.xl {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: green;
+    font-size: 13px;
+
+
+}
+
+
+.color {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 213px;
+    margin-left: 40%;
+
+}
+
+#c1 {
+    width: 15px;
+    height: 15px;
+    background-color: #009943;
+    margin: 5px;
+}
+
+#c2 {
+    width: 15px;
+    height: 15px;
+    background-color: #e2bb10;
+    margin: 5px;
+}
+
+#c3 {
+    width: 15px;
+    height: 15px;
+    background-color: #0fe3ea;
+    margin: 5px;
+}
+
+
+:root {
+    --color1: #FC6600;
+    --color2: green;
+
+
+}
+
+
+.md {
+    border: 1px solid white;
+    position: relative;
+    height: 160px;
+}
+
+
+div a {
+    color: green;
+    text-decoration: none;
+}
+
+div i {
+    color: green;
+}
+
+.z1 {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -270px;
+}
+
+.bi-caret-down {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 132px;
+    margin-left: -140px;
+}
+
+.z2 {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -90px;
+}
+
+.bi-person-circle {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -115px;
+}
+
+header img {
+    width: 45%;
+    height: 100px;
+    margin: 8px;
+}
+
+header {
+    margin: 5px;
+    display: flex;
+
+
+}
+
+
+
+
+header input {
+    margin-left: 5px;
+    border: 1px solid white;
+    width: 320px;
+    background-color: rgba(167, 164, 164, 0.201);
+    height: 40px;
+    border-radius: 15px 0 0 15px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+header .bi-search {
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    height: 40px;
+    font-size: 20px;
+    width: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 315px;
+    margin-top: 160px;
+    border-radius: 0 15px 15px 0;
+    background-color: green;
+
+
+}
+
+/*                  nav nav nav       */
+
+.tc {
+    color: red;
+}
+
+.toggle {
+    background-color: var(--color2);
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+
+}
+
+.bi-list {
+    color: white;
+}
+
+nav {
+
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color2);
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+/*           slide slide slide               */
+
+
+
+.gttour a:hover {
+    color: red;
+}
+
+.slide img {
+    width: 100%;
+    height: 200px;
+    margin-top: 3px;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide .bi-arrow-left-circle-fill {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    font-size: 2rem;
+    color: black;
+}
+
+.slide .bi-arrow-right-circle-fill {
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    font-size: 2rem;
+    color: black;
+}
+
+.slide .list {
+    position: absolute;
+    bottom: 5%;
+    font-size: 5rem;
+    text-align: center;
+    left: calc(50% - 40px);
+    /* calc dùng để căn giữa thứ mình muốn calc(50% - 40px) 50% là ở giữa màn hình 40px là chia 2 kích cỡ chữ */
+}
+
+
+
+/*            tour nhỏ tour nhỏ tour nhỏ         */
+
+
+.tourkhoihanh {
+    width: 100%;
+    height: 90px;
+    border: 1px solid white;
+    background-color: green;
+    display: flex;
+    position: relative;
+
+
+}
+
+
+
+.tourkhoihanh i {
+    font-size: 50px;
+    color: white;
+    border: 1px solid green;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.tkh1 {
+    color: white;
+    border: 1px solid green;
+    position: absolute;
+    margin-left: 80px;
+}
+
+.tkh2 {
+    color: white;
+    border: 1px solid green;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+
+.tourkhoihanh2 {
+    width: 100%;
+    height: 90px;
+    border: 1px solid white;
+    background-color: rgb(237, 15, 29);
+    display: flex;
+    position: relative;
+
+
+}
+
+.tourkhoihanh2 i {
+    font-size: 50px;
+    color: white;
+    border: 1px solid rgb(237, 15, 29);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.tkh3 {
+    color: white;
+    border: 1px solid rgb(237, 15, 29);
+    position: absolute;
+    margin-left: 80px;
+}
+
+.tkh4 {
+    color: white;
+    border: 1px solid rgb(237, 15, 29);
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+
+
+.tourkhoihanh3 {
+    width: 100%;
+    height: 90px;
+    border: 1px solid white;
+    background-color: rgb(240, 19, 118);
+    display: flex;
+    position: relative;
+
+
+}
+
+.tourkhoihanh3 i {
+    font-size: 50px;
+    color: white;
+    border: 1px solid rgb(240, 19, 118);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.tkh5 {
+    color: white;
+    border: 1px solid rgb(240, 19, 118);
+    position: absolute;
+    margin-left: 80px;
+}
+
+.tkh6 {
+    color: white;
+    border: 1px solid rgb(240, 19, 118);
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+
+/*                main main main              */
+
+.gttour {
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gttour img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.gttour p {
+    line-height: 30px;
+    border: 1px solid green;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+.gttour a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid green;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 120px;
+}
+
+.gttour i {
+    border: 1px solid green;
+    position: absolute;
+    margin-left: 335px;
+    margin-top: 122px;
+}
+
+
+
+/*         líttour listtour listtour      */
+
+
+.gia a:hover {
+    color: red;
+}
+
+.list-tour article {
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+
+}
+
+
+.list-tour img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.5s;
+
+
+
+}
+
+main section img:hover {
+    transform: scale(1.1);
+}
+
+.anh {
+    overflow: hidden;
+
+}
+
+
+
+
+.gia {
+    border: 1px solid white;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    background-color: rgb(225, 221, 221);
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+
+.c {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-left: 10px;
+    padding-right: 5px;
+}
+
+.bi-clock {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+
+.c1 {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.bi-calendar-check {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
+
+
+.c2 {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.bi-airplane-fill {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 10px;
+
+}
+
+.c3 {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 40px;
+}
+
+.bi-building {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 10px;
+
+}
+
+.c4 {
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 40px;
+}
+
+
+.c5 {
+    color: red;
+    font-weight: 900;
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+.bi-chevron-double-right {
+    color: green;
+    font-weight: 900;
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 240px;
+}
+
+.xt {
+    color: green;
+    text-decoration: none;
+    border: 1px solid rgb(225, 221, 221);
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 260px;
+}
+
+
+
+/*           slide slide slide  nhor             */
+
+.slidee img {
+    width: 100%;
+    height: 200px;
+    margin-top: 3px;
+}
+
+.slidee {
+    position: relative;
+}
+
+.slidee .bi-arrow-left-circle-fill {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    font-size: 2rem;
+}
+
+.slidee .bi-arrow-right-circle-fill {
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    font-size: 2rem;
+
+}
+
+.slidee .list {
+    position: absolute;
+    bottom: 5%;
+    font-size: 5rem;
+    text-align: center;
+    left: calc(50% - 40px);
+    /* calc dùng để căn giữa thứ mình muốn calc(50% - 40px) 50% là ở giữa màn hình 40px là chia 2 kích cỡ chữ */
+}
+
+/* ////////////////////////////////////////////// */
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.grid-container img {
+    width: 100%;
+}
+
+.grid-container {
+    padding: 10px;
+}
+
+
+
+
+.item1 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item2 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item3 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item4 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item4 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.item5 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.grid-container img:hover{
+    transform: rotate(5deg);
+}
+
+
+/*        Thu vien anh       */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.column-3 img {
+    height: 33.33%;
+    object-fit: cover;
+}
+
+.column-4 img {
+    height: 25%;
+    object-fit: cover;
+}
+
+.column-3,
+.column-4 {
+    flex: 50%;
+    padding: 2px;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.feedback {
+    text-align: center;
+    overflow: hidden;
+}
+
+.feedback img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.feedback article {
+    padding: 10px;
+}
+
+.feedback p i {
+    color: rgba(231, 198, 12, 0.908);
+}
+
+
+.feedback img:hover{
+   transform: scaleY(1.1);
+}
+
+
+.gallery img:hover{
+    transform:scaleY(1.5);
+}
+
+footer {
+    background-color: green;
+    color: white;
+   padding-top: 10px;
+   margin-top: 50px;
+   padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dung cho smart nho */
+@media screen and (min-width: 240px) {
+    .toggle {
+        text-decoration: none;
+        margin-top: 80px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* Máy tính bảng dọc*/
+@media screen and (min-width: 768px) {
+
+    header img {
+        padding: 10px;
+        padding-left: 40px;
+    }
+
+    .xl {
+        font-size: 20px;
+    }
+
+
+    .z1 {
+        margin-top: 130px;
+        margin-left: -900px;
+    }
+
+    .bi-caret-down {
+        margin-top: 133px;
+        margin-left: -695px;
+    }
+
+    .bi-person-circle {
+        margin-top: 130px;
+        margin-left: -640px;
+    }
+
+    .z2 {
+        margin-top: 130px;
+        margin-left: -610px;
+    }
+
+    header img {
+        width: 45%;
+        margin-left: 20px;
+
+    }
+
+
+    .color {
+        margin-left: 50%;
+        margin-top: 233px;
+    }
+
+    header input {
+
+        border: 1px solid white;
+        width: 730px;
+        background-color: rgba(167, 164, 164, 0.201);
+        height: 40px;
+        border-radius: 15px 0 0 15px;
+        margin-top: 160px;
+        position: absolute;
+    }
+
+    header .bi-search {
+        color: white;
+        border: 1px solid white;
+        position: absolute;
+        height: 40px;
+        font-size: 20px;
+        width: 40px;
+        padding-bottom: 2px;
+        padding-top: 8px;
+        text-align: center;
+        margin-left: 730px;
+        margin-top: 160px;
+        border-radius: 0 15px 15px 0;
+        background-color: green;
+
+
+
+
+
+    }
+
+    header div {
+        margin-left: 400px;
+    }
+
+    header div i {
+        font-size: 25px;
+    }
+
+    header a {
+        font-size: 25px;
+
+    }
+
+
+    /* nav nav nav */
+    .toggle {
+        margin-top: 100px;
+        display: none;
+
+    }
+
+    nav {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /*      slide slide silde            */
+
+    .slide img {
+        width: 100%;
+        height: 300px;
+
+    }
+
+
+
+    /*       main main main       */
+
+    .gttour {
+        height: 180px;
+    }
+
+    .gttour img {
+        width: 80px;
+        height: 80px;
+        border: 1px solid green;
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    .gttour p {
+        font-size: 25px;
+        line-height: 30px;
+        border: 1px solid green;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+
+
+    .gttour a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid green;
+        position: absolute;
+        margin-left: 600px;
+        font-size: 25px;
+        margin-top: 130px;
+    }
+
+    .gttour i {
+        font-size: 25px;
+        color: white;
+        border: 1px solid green;
+        position: absolute;
+        margin-left: 560px;
+        margin-top: 127px;
+    }
+
+
+    /*     listtour listtour listtour       */
+
+    /* .list-tour img {
+        height: 400px;
+    } */
+
+    .gia {
+        height: 250px;
+    }
+
+    .c,
+    .c1,
+    .c2,
+    .c3,
+    .c4 {
+        font-size: 25px;
+        margin-left: 80px;
+
+    }
+
+    .c {
+        margin-left: 40px;
+        font-size: 25px;
+
+    }
+
+    .bi-calendar-check {
+        margin-top: 110px;
+    }
+
+    .bi-airplane-fill {
+        margin-top: 150px;
+
+    }
+
+    .bi-building {
+        margin-top: 190px;
+
+    }
+
+
+
+
+    .c2 {
+        margin-top: 110px;
+    }
+
+    .c3 {
+        margin-top: 150px;
+
+    }
+
+    .c4 {
+        margin-top: 190px;
+
+    }
+
+    .bi-clock,
+    .bi-calendar-check,
+    .bi-airplane-fill,
+    .bi-building {
+        font-size: 25px;
+        margin-left: 40px;
+    }
+
+    .c5 {
+        font-size: 25px;
+        margin-left: 600px;
+    }
+
+    .xt {
+        font-size: 25px;
+        margin-left: 600px;
+        margin-top: 190px;
+    }
+
+    .bi-chevron-double-right {
+        font-size: 25px;
+        margin-left: 620px;
+        margin-top: 190px;
+
+    }
+
+
+    .slidee img {
+        height: 180px;
+    }
+
+
+
+    /* grid grid grid */
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'item1 item1 item2 item3'
+            'item1 item1 item4 item5';
+        gap: 10px;
+    }
+
+
+    /* Thu vien anh */
+
+    .column-3,
+    .column-4 {
+        flex: 25%;
+    }
+
+    .feedback {
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Laptop  và máy tính bảng ngang*/
+@media screen and (min-width: 1024px) {
+
+    header img {2
+        width: 200px;
+    }
+
+    header img {
+        width: 350px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .color {
+        margin-top: 163px;
+        margin-left: 100px;
+    }
+
+    .z1 {
+        margin-top: 20px;
+        margin-left: -350px;
+    }
+
+    .bi-caret-down {
+        margin-top: 25px;
+        margin-left: -145px;
+    }
+
+    .z2 {
+        margin-top: 20px;
+        margin-left: -75px;
+    }
+
+    .bi-person-circle {
+        margin-top: 20px;
+        margin-left: -105px;
+    }
+
+    header .bi-search {
+        padding-top: 8px;
+        padding-bottom: 2px;
+        margin-left: 1433px;
+        margin-top: 60px;
+    }
+
+    header input {
+        margin-left: 1050px;
+        border: 1px solid white;
+        width: 400px;
+        background-color: rgba(167, 164, 164, 0.201);
+        height: 40px;
+        border-radius: 15px 0 0 15px;
+        margin-top: 60px;
+        position: absolute;
+    }
+
+    /* nav nav nav */
+    .toggle {
+        display: none;
+
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+
+    nav a {
+        margin-top: 20px;
+        display: flex;
+        font-size: 17px;
+        margin-left: 80px;
+    }
+
+
+
+    /*      slide slide silde            */
+
+    .slide img {
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+    /*        tour khoi hanh nho        */
+
+    .tkhlap {
+        border: 1px solid white;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .tourkhoihanh {
+        width: 30%;
+        height: 90px;
+        border: 1px solid white;
+        background-color: green;
+        display: flex;
+        position: relative;
+        margin-left: 73px;
+
+
+    }
+
+    .tourkhoihanh2 {
+        width: 30%;
+        height: 90px;
+        border: 1px solid white;
+        background-color: rgb(237, 15, 29);
+        display: flex;
+        position: relative;
+
+
+
+
+    }
+
+    .tourkhoihanh3 {
+        width: 30%;
+        height: 90px;
+        border: 1px solid white;
+        background-color: rgb(240, 19, 118);
+        display: flex;
+        position: relative;
+
+
+
+    }
+
+
+    /*       main main main       */
+
+    .gttour {
+        height: 90px;
+    }
+
+    .gttour img {
+        width: 80px;
+        height: 80px;
+        border: 1px solid green;
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    .gttour p {
+        font-size: 25px;
+        line-height: 30px;
+        border: 1px solid green;
+        position: absolute;
+        margin-top: 31px;
+        margin-left: 140px;
+    }
+
+
+
+    .gttour a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid green;
+        position: absolute;
+        margin-left: 1300px;
+        font-size: 25px;
+        margin-top: 31px;
+    }
+
+    .gttour i {
+        font-size: 25px;
+        border: 1px solid green;
+        position: absolute;
+        margin-left: 1415px;
+        margin-top: 33px;
+    }
+
+
+    /*              listtour listtour listtour            */
+
+
+
+
+    .list-tour img {
+        width: 50%;
+        height: 400px;
+        padding-left: 100px;
+        border-radius: 20px;
+    }
+
+
+
+
+    .list-tour .gia {
+        width: 40%;
+        height: 400px;
+        margin-top: -405px;
+        margin-left: 790px;
+
+    }
+
+    .c {
+        margin-top: 50px;
+    }
+
+    .bi-clock {
+        margin-top: 150px;
+    }
+
+    .c1 {
+        margin-top: 150px;
+
+    }
+
+
+    .bi-calendar-check {
+        margin-top: 200px;
+    }
+
+    .c2 {
+        margin-top: 200px;
+
+    }
+
+    .bi-airplane-fill {
+        margin-top: 250px;
+    }
+
+    .c3 {
+        margin-top: 250px;
+
+    }
+
+    .bi-building {
+        margin-top: 300px;
+    }
+
+    .c4 {
+        margin-top: 300px;
+
+    }
+
+    .c5 {
+        margin-left: 420px;
+        margin-top: 150px;
+    }
+
+    .xt {
+        margin-left: 440px;
+        margin-top: 300px;
+    }
+
+    .bi-chevron-double-right {
+        margin-left: 410px;
+        margin-top: 298px;
+    }
+
+
+    .slidee img {
+        height: 280px;
+    }
+
+
+
+
+
+
+
+}

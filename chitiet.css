@@ -1,0 +1,1068 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Regular', sans-serif;
+    position: relative;
+
+}
+
+
+.zalo {
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    width: 50px;
+}
+
+.zalo:hover {
+    transform: scale(1.1);
+}
+
+.messenger {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    width: 50px;
+}
+
+.messenger:hover {
+    transform: scale(1.1);
+}
+
+
+header a:hover {
+    color: red;
+}
+
+header .bi-search:hover {
+    color: red;
+}
+
+
+.xl {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: green;
+    font-size: 13px;
+
+
+}
+
+
+.color {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 213px;
+    margin-left: 40%;
+
+}
+
+#c1 {
+    width: 15px;
+    height: 15px;
+    background-color: #009943;
+    margin: 5px;
+}
+
+#c2 {
+    width: 15px;
+    height: 15px;
+    background-color: #e2bb10;
+    margin: 5px;
+}
+
+#c3 {
+    width: 15px;
+    height: 15px;
+    background-color: #0fe3ea;
+    margin: 5px;
+}
+
+
+:root {
+    --color1: #FC6600;
+    --color2: green;
+
+
+}
+
+
+.md {
+    border: 1px solid white;
+    position: relative;
+    height: 160px;
+}
+
+
+div a {
+    color: green;
+    text-decoration: none;
+}
+
+div i {
+    color: green;
+}
+
+.z1 {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -270px;
+}
+
+.bi-caret-down {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 132px;
+    margin-left: -140px;
+}
+
+.z2 {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -90px;
+}
+
+.bi-person-circle {
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -115px;
+}
+
+header img {
+    width: 45%;
+    height: 100px;
+    margin: 8px;
+}
+
+header {
+    margin: 5px;
+    display: flex;
+
+
+}
+
+
+
+
+header input {
+    margin-left: 5px;
+    border: 1px solid white;
+    width: 320px;
+    background-color: rgba(167, 164, 164, 0.201);
+    height: 40px;
+    border-radius: 15px 0 0 15px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+header .bi-search {
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    height: 40px;
+    font-size: 20px;
+    width: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 315px;
+    margin-top: 160px;
+    border-radius: 0 15px 15px 0;
+    background-color: green;
+
+
+}
+
+/*                  nav nav nav       */
+
+
+
+.toggle {
+    background-color: var(--color2);
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+
+}
+
+.bi-list {
+    color: white;
+}
+
+nav {
+    background-color: rgb(28, 59, 182);
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color2);
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+/* silde slide slide */
+
+
+.slide i {
+    color: black;
+}
+
+.gttour a:hover {
+    color: red;
+}
+
+.slide img {
+    width: 100%;
+    height: 300px;
+    margin-top: 3px;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide .bi-arrow-left-circle-fill {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    font-size: 2rem;
+}
+
+.slide .bi-arrow-right-circle-fill {
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    font-size: 2rem;
+
+}
+
+
+
+/*         main main main               */
+
+main h1 {
+    color: green;
+}
+
+main img {
+    width: 100%;
+
+}
+
+main i {
+    margin-right: 10px;
+    color: black;
+}
+
+main div a {
+    margin-left: 10px;
+    color: green;
+
+}
+
+main div a:hover {
+    color: red;
+}
+
+
+
+.m1 {
+
+    display: flex;
+    align-items: center;
+}
+
+.m2 {
+
+    display: flex;
+    align-items: center;
+}
+
+.m3 {
+
+    display: flex;
+    align-items: center;
+}
+
+.m4 {
+
+    display: flex;
+    align-items: center;
+}
+
+.m5 {
+
+    display: flex;
+    align-items: center;
+}
+
+.m6 {
+
+    display: flex;
+    align-items: center;
+}
+
+.m7 {
+
+    display: flex;
+    align-items: center;
+}
+
+.m8 {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.them {
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    font-size: larger;
+    color: green;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.them1 {
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    font-size: larger;
+    color: green;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.them2 {
+    color: red;
+    text-align: center;
+}
+
+
+.dt1 {
+    display: flex;
+
+}
+
+.tien {
+    color: red;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 20px;
+    width: 180px;
+}
+
+
+.datt {
+    color: black;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 10px;
+    width: 180px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.datt:hover {
+    background-color: green;
+    color: white;
+}
+
+
+.ltkh {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.ltkh1 {
+    text-align: center;
+
+}
+
+.n1 {
+    margin-top: 40px;
+    font-size: larger;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    color: red;
+}
+
+.mauc {
+    color: green;
+}
+
+
+
+
+/*           slide slide slide  nhor             */
+
+.slidee img {
+    width: 100%;
+    height: 100px;
+    margin-top: 3px;
+}
+
+.slidee {
+    position: relative;
+}
+
+.slidee .bi-arrow-left-circle-fill {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    font-size: 2rem;
+}
+
+.slidee .bi-arrow-right-circle-fill {
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    font-size: 2rem;
+
+}
+
+.slidee .list {
+    position: absolute;
+    bottom: 5%;
+    font-size: 5rem;
+    text-align: center;
+    left: calc(50% - 40px);
+    /* calc dùng để căn giữa thứ mình muốn calc(50% - 40px) 50% là ở giữa màn hình 40px là chia 2 kích cỡ chữ */
+}
+
+/* ////////////////////////////////////////////// */
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.grid-container img {
+    width: 100%;
+}
+
+.grid-container {
+    padding: 10px;
+}
+
+
+
+
+.item1 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item2 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item3 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item4 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item4 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.item5 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.gallery img:hover{
+    transform:scaleY(1.5);
+}
+
+.feedback img:hover{
+    transform: scaleY(1.1);
+ }
+
+ .grid-container img:hover{
+    transform: rotate(5deg);
+}
+
+/*        Thu vien anh       */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.column-3 img {
+    height: 33.33%;
+    object-fit: cover;
+}
+
+.column-4 img {
+    height: 25%;
+    object-fit: cover;
+}
+
+.column-3,
+.column-4 {
+    flex: 50%;
+    padding: 2px;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.feedback {
+    text-align: center;
+}
+
+.feedback img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.feedback article {
+    padding: 10px;
+}
+
+.feedback p i {
+    color: rgba(231, 198, 12, 0.908);
+}
+
+footer {
+    background-color: green;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dung cho smart nho */
+@media screen and (min-width: 240px) {
+    .toggle {
+        text-decoration: none;
+        margin-top: 80px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* Máy tính bảng dọc*/
+@media screen and (min-width: 768px) {
+
+    header img {
+        padding: 10px;
+        padding-left: 40px;
+    }
+
+    .xl {
+        font-size: 20px;
+    }
+
+
+    .z1 {
+        margin-top: 130px;
+        margin-left: -900px;
+    }
+
+    .bi-caret-down {
+        margin-top: 133px;
+        margin-left: -695px;
+    }
+
+    .bi-person-circle {
+        margin-top: 130px;
+        margin-left: -640px;
+    }
+
+    .z2 {
+        margin-top: 130px;
+        margin-left: -610px;
+    }
+
+    header img {
+        width: 45%;
+        margin-left: 20px;
+
+    }
+
+
+    .color {
+        margin-left: 50%;
+        margin-top: 233px;
+    }
+
+    header input {
+
+        border: 1px solid white;
+        width: 730px;
+        background-color: rgba(167, 164, 164, 0.201);
+        height: 40px;
+        border-radius: 15px 0 0 15px;
+        margin-top: 160px;
+        position: absolute;
+    }
+
+    header .bi-search {
+        color: white;
+        border: 1px solid white;
+        position: absolute;
+        height: 40px;
+        font-size: 20px;
+        width: 40px;
+        padding-bottom: 2px;
+        padding-top: 8px;
+        text-align: center;
+        margin-left: 730px;
+        margin-top: 160px;
+        border-radius: 0 15px 15px 0;
+        background-color: green;
+
+
+
+
+
+    }
+
+    header div {
+        margin-left: 400px;
+    }
+
+    header div i {
+        font-size: 25px;
+    }
+
+    header a {
+        font-size: 25px;
+
+    }
+
+
+    /* nav nav nav */
+    .toggle {
+        margin-top: 100px;
+        display: none;
+
+    }
+
+    nav {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+
+
+    .slidee img {
+        height: 180px;
+    }
+
+    /*              main main main         */
+
+    .slide img {
+        height: 400px;
+    }
+
+    .tongquan {
+        font-size: 20px;
+    }
+
+    .dt1 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* grid grid grid */
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'item1 item1 item2 item3'
+            'item1 item1 item4 item5';
+        gap: 10px;
+    }
+
+
+    /* Thu vien anh */
+
+    .column-3,
+    .column-4 {
+        flex: 25%;
+    }
+
+    .feedback {
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Laptop  và máy tính bảng ngang*/
+@media screen and (min-width: 1024px) {
+
+    header img {
+        width: 200px;
+    }
+
+    header img {
+        width: 350px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .color {
+        margin-top: 163px;
+        margin-left: 100px;
+    }
+
+    .z1 {
+        margin-top: 20px;
+        margin-left: -350px;
+    }
+
+    .bi-caret-down {
+        margin-top: 25px;
+        margin-left: -145px;
+    }
+
+    .z2 {
+        margin-top: 20px;
+        margin-left: -75px;
+    }
+
+    .bi-person-circle {
+        margin-top: 20px;
+        margin-left: -105px;
+    }
+
+    header .bi-search {
+        padding-top: 8px;
+        padding-bottom: 2px;
+        margin-left: 1433px;
+        margin-top: 60px;
+    }
+
+    header input {
+        margin-left: 1050px;
+        border: 1px solid white;
+        width: 400px;
+        background-color: rgba(167, 164, 164, 0.201);
+        height: 40px;
+        border-radius: 15px 0 0 15px;
+        margin-top: 60px;
+        position: absolute;
+    }
+
+    /* nav nav nav */
+    .toggle {
+        display: none;
+
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+
+    nav a {
+        margin-top: 20px;
+        display: flex;
+        font-size: 17px;
+        margin-left: 80px;
+    }
+
+
+
+    /*      slide slide silde            */
+
+    .slide {
+        position: relative;
+    }
+
+    .slide img {
+        width: 60%;
+        height: 700px;
+    }
+
+    .bi-arrow-left-circle-fill {
+        margin-left: -20px;
+    }
+
+    .bi-arrow-right-circle-fill {
+        margin-right: 585px;
+    }
+
+    /*       main main main       */
+
+    .tongquan {
+        position: absolute;
+        margin-left: 950px;
+        margin-top: -715px;
+        line-height: 5px;
+        font-size: 20px;
+
+    }
+
+    .them {
+        border: 1px solid white;
+        width: 500px;
+        position: absolute;
+        margin-left: 950px;
+        margin-top: -350px;
+        font-size: 20px;
+
+    }
+
+    .them1 {
+        border: 1px solid white;
+        width: 500px;
+        position: absolute;
+        margin-left: 950px;
+        margin-top: -200px;
+        font-size: 20px;
+
+    }
+
+    .dt1 {
+        margin-left: -600px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+    /*              listtour listtour listtour            */
+
+
+
+
+
+
+
+
+
+
+
+}

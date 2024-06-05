@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+
+<body>
+    <h1> Đăng kí </h1>
+
+    <form action="">
+        <input type="text" onchange="checkName(this.value)" id="name" placeholder="Nhập Tên">
+        <br>
+        <p id="name-error"></p>
+        <br>
+        <input type="text" onchange="checkAge(this.value)" id="age" placeholder="Nhập tuổi">
+        <br>
+        <p id="age-error"></p>
+        <br>
+        <input type="text" onchange="checkAddress(this.value)" id="adress" placeholder="Nhập Địa Chỉ">
+        <br>
+        <p id="address-error"></p>
+        <br>
+        <input type="text" onchange="checkNumber(this.value)" id="phone" placeholder="Nhập SDT">
+        <br>
+        <p id="number-error"></p>
+        <br>
+        <input type="text" onchange="checkEmail(this.value)" id="email" placeholder="Nhập Email">
+        <br>
+        <p id="email-error"></p>
+        <br>
+        <!-- <input type="submit" value="Đăng Kí" >  -->
+
+        <button> <a href="dangnhap.html"> Đăng Kí </a></button>
+
+
+    </form>
+    <script src="dangki.js"></script>
+</body>
+
+</html>
